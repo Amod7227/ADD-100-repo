@@ -51,10 +51,10 @@ print(f'Your monthly mortgage payment of ${mortgage:.2f} is {mortgage_percent}% 
 print(f'Your monthly utilities payment of ${utilities:.2f} is {utilities_percent}% of monthly income.')
 print(f'Your monthly groceries payment of ${groceries:.2f} is {groceries_percent}% of monthly income.')
 print(f'Your monthly transportation payment of ${transportation:.2f} is {transportation_percent}% of monthly income.')
-print(f'Your monthly mortgage payment of ${health_care:.2f} is {health_care_percent}% of monthly income.')
-print(f'Your monthly mortgage payment of ${personal_care:.2f} is {personal_care_percent}% of monthly income.')
-print(f'Your monthly mortgage payment of ${clothing:.2f} is {clothing_percent}% of monthly income.')
-print(f'Your monthly mortgage payment of ${debt:.2f} is {debt_percent}% of monthly income.')
+print(f'Your monthly health care payment of ${health_care:.2f} is {health_care_percent}% of monthly income.')
+print(f'Your monthly personal care payment of ${personal_care:.2f} is {personal_care_percent}% of monthly income.')
+print(f'Your monthly clothing payment of ${clothing:.2f} is {clothing_percent}% of monthly income.')
+print(f'Your monthly debt payment of ${debt:.2f} is {debt_percent}% of monthly income.')
 
 # If statements added to congratulate or scold you depending on how well you budgeted for the month.
 # I realize we haven't learned this yet but I wanted to have fun with my program.
