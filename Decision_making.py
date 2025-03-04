@@ -4,6 +4,9 @@
 # User input for age
 user_age=int(input('What is your age?: '))
 
+#Blank print to separate input from output
+print("")
+
 # Statement to determine if old enough to drive
 if user_age >= 16:
     print("You are old enough to drive.")
