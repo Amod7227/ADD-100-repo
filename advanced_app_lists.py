@@ -17,11 +17,11 @@ for time in time_slots:
 
 # Heart rate average
 average_bpm = sum(rate[1] for rate in heart_rate) / len(heart_rate)
-
+round(average_bpm)
 # Print results of data
 print("\nHeart rate data:")
 for time, bpm in heart_rate:
     print(f"{time}: {bpm} BPM")
 
 # Print average bpm for the day
-print(f"{user_name}, your average heart rate is: {average_bpm:.2f} BPM")
+print(f"{user_name}, your average heart rate is: {average_bpm} BPM")
