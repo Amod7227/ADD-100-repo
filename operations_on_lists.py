@@ -42,7 +42,7 @@ while seat_to_move != 0:
 # If input is 0 cancels program
 if seat_to_move == 0:
     print("\nThank you", customer, "for your reservations.")
-    print("You have reserved seats:", taken_seats)
+    print("You have reserved seats:", sorted(taken_seats))
     print("Please come again!")
 
 
