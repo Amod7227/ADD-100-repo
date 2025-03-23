@@ -11,7 +11,7 @@ def factorial(n):
         print("Please try again with a non-negative number.")
 
 # Input for number to test
-number=int(input("Please enter a number to determine its factorial.: "))
+number=int(input("Please enter a non-negative integer to determine its factorial.: "))
 
 # Variable created from factorial function
 answer = factorial(number)
