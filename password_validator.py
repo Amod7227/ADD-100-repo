@@ -48,7 +48,7 @@ def password_validator():
                 print("Password Successful")
                 #Ends function if passwords match with successful message
                 break  
-            #else block if passwords don't match
+            #else block if passwords do not match
             else:
                 print("Password unsuccessful. Please try again.")
     #Exception block to handle exceptions
