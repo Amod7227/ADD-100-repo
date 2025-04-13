@@ -18,7 +18,7 @@ def main():
     print("\nConverting string to a list of characters:")
     string_list=list(example_string)
     print(string_list)
-# TODO: Count and print the number of occurrences of 'o' in the string
+# Count and print the number of occurrences of 'o' in the string
     O_count=example_string.count("o")
     print("\nCount of 'o' in the string:", O_count)
 
